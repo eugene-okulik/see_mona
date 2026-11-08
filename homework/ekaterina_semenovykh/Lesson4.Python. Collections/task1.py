@@ -6,7 +6,7 @@ my_dict["set"] = {"PE", "Maths", "Chemistry", "Ecology", "Biology"}
 print(my_dict["tuple"][-1])
 my_dict["list"].append("Passed")
 my_dict["list"].pop(1)
-my_dict["dict"]["i am a tuple"] = "Yeah"
+my_dict["dict"][("i am a tuple",)] = True
 my_dict["dict"].pop("eyes")
 my_dict["set"].add("Computer Science")
 my_dict["set"].pop()
