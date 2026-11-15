@@ -6,4 +6,3 @@ my_text = "Students {0} study these subjects: {1}"
 print(my_text.format(students, subjects))
 my_text = f"Students {students} study these subjects: {subjects}"
 print(my_text)
-
